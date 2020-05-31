@@ -1,4 +1,4 @@
-# Rapyuta Robotics Challenge
+# Safe Challenge
 
 The problem proposed asks the user to unlock a laser reflecting safe. The challenge is to find the grid location(s) on which to place a mirror(s) in order to successfully reflect the laser out of the bottom right of the grid (see "rr_take_home_challenge_mirrors_and_lasers.pdf" for challenge details. 
 
@@ -8,7 +8,7 @@ Clone/copy this directory to your location of choice and run the following comma
 
 1. mkdir build && cd build
 2. cmake .. && make
-3. ./RapyutaChallenge ```<your appropiately formatted grid specification text file>```
+3. ./safe_challenge ```<your appropiately formatted grid specification text file>```
 
 The terminal command to run the included input file from your build directory would be: ```./safe_challenge "input.txt" ```
 
